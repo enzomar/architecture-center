@@ -5,6 +5,8 @@ author: iainfoulds
 ms.date: 07/05/2018
 ---
 
+::: zone target="chromeless"
+
 # Conversational chatbot for hotel reservations on Azure
 
 This example scenario is applicable to businesses that need to integrate a conversational chatbot into applications. In this scenario, a C# chatbot is used for a hotel chain that allows customers to check availability and book accommodation through a web or mobile application.
@@ -33,6 +35,8 @@ This scenario covers a conversational bot that functions as a concierge for a ho
 4. Cognitive Services processes the natural language request to understand the customer communication.
 5. After the user is happy with the results, the bot adds or updates the customer’s reservation in a SQL Database.
 6. Application Insights gathers runtime telemetry throughout the process to help the DevOps team with bot performance and usage.
+
+::: zone-end
 
 ### Components
 
